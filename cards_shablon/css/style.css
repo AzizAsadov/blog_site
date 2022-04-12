@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    display: flex;
+    padding: 50px 200px;
+    justify-content: space-between;
+    
+}
+.cards .card {
+    width: 300px ;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 8px 1px gray;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.cards .card img {
+    height: 240px;
+    border-radius: 10px;
+}
+
+.cards .card .title {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(87, 81, 81);
+}
+
+
+
+.cards .card .description{
+    text-transform: none;
+    color: gray;
+}
+.cards .card .coast{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.cards .card .stars .fa-solid{
+    color: yellow;
+}
+.cards .card .stars .fa-solid:hover{
+    color:black;
+}
+
+.cards .card .shop_div{
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 10px 10px;
+}
+.cards .card:nth-child(1) .shop_div{
+    background-color: black;
+}
+.cards .card:nth-child(2) .shop_div{
+    background-color: rgb(30, 3, 129);
+}
+.cards .card:nth-child(3) .shop_div{
+    background-color: rgb(184, 9, 9);
+}
+
+.cards .card .shop{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);  
+    padding-top: 10px; 
+    font-size: 25px;   
+}
